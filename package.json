@@ -1,0 +1,39 @@
+{
+  "name": "my-wall",
+  "version": "1.0.0",
+  "description": "Focus on whats most important through your wallpaper.",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webdeskme/My-Wall.git"
+  },
+  "keywords": [
+    "Wallpaper"
+  ],
+  "author": "Adam W Telford",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Webdeskme/My-Wall/issues"
+  },
+  "homepage": "https://github.com/Webdeskme/My-Wall#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "electron": "^23.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "electron-squirrel-startup": "^1.0.0",
+    "html-to-image": "^1.11.11",
+    "wallpaper": "^6.1.1"
+  }
+}
